@@ -1,0 +1,664 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Events Manager - Event Cancellation\n"
+"POT-Creation-Date: 2020-06-07 16:14+0200\n"
+"PO-Revision-Date: 2020-06-07 16:14+0200\n"
+"Last-Translator: Patrick Buntsma <info@stonehengecreations.nl>\n"
+"Language-Team: Patrick Buntsma <info@stonehengecreations.nl>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: stonehenge-em-cancellation.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: classes/class-admin.php:13
+#, php-format
+msgid " <span class=\"count\">(%s)</span>"
+msgid_plural " <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: classes/class-admin.php:89
+msgid "Delete"
+msgstr ""
+
+#: classes/class-admin.php:90
+msgid "Edit/View"
+msgstr ""
+
+#: classes/class-admin.php:129
+msgid "View all"
+msgstr ""
+
+#: classes/class-admin.php:166
+msgid "Category"
+msgstr ""
+
+#: classes/class-init.php:28 classes/class-init.php:135
+#: classes/class-init.php:212
+msgid "Cancelled"
+msgstr ""
+
+#: classes/class-init.php:97
+msgid "Info"
+msgstr ""
+
+#: classes/class-init.php:103
+msgid ""
+"Unfortunately, you sometimes have to cancel a planned event. This add-on "
+"makes that extremely easy!"
+msgstr ""
+
+#: classes/class-init.php:103
+msgid ""
+"Just change the Post Status to \"Cancelled\" and this add-on will "
+"automatically:"
+msgstr ""
+
+#: classes/class-init.php:104
+msgid ""
+"Close the Booking Form by adjusting the Event cut-off time to the timestamp "
+"of cancellation;"
+msgstr ""
+
+#: classes/class-init.php:105
+msgid "Change the Event Category to the new \"Event Cancelled\";"
+msgstr ""
+
+#: classes/class-init.php:106
+msgid ""
+"Change the Booking Status to the new \"Event Cancelled\" for selected "
+"booking statuses;"
+msgstr ""
+
+#: classes/class-init.php:106
+#, php-format
+msgid "You might want to consider %s, prior to cancelling the event."
+msgstr ""
+
+#: classes/class-init.php:107
+msgid "Send the new \"Event Cancelled\" Email to notify your customers."
+msgstr ""
+
+#: classes/class-init.php:107
+msgid ""
+"After cancelling an event, it will still be visible in the front end, but "
+"the booking form will be closed. This prevents 404-errors for visitors and "
+"search engines."
+msgstr ""
+
+#: classes/class-init.php:107
+msgid "Refunding online payments remains a manual procedure."
+msgstr ""
+
+#: classes/class-init.php:107
+msgid ""
+"This add-on is fully integrated with the Events Manager Dashboard. These new "
+"options will work exactly the same as the built-in ones."
+msgstr ""
+
+#: classes/class-init.php:107
+#, php-format
+msgid "Compatibility with %s:"
+msgstr ""
+
+#: classes/class-init.php:107
+msgid ""
+"If you cancel a main event, all sub events will be cancelled as well, but if "
+"you cancel a sub event, the rest of this Ongoing Series will remain "
+"unchanged."
+msgstr ""
+
+#: classes/class-init.php:117
+msgid "Moving the Booking"
+msgstr ""
+
+#: classes/class-init.php:128
+msgid "Options"
+msgstr ""
+
+#: classes/class-init.php:136
+msgid ""
+"Enter the label for the new post status. It will be shown in the Status "
+"Dropdown and used for the Event Category."
+msgstr ""
+
+#: classes/class-init.php:140
+msgid "Booking Status"
+msgstr ""
+
+#: classes/class-init.php:144
+msgid ""
+"Enter the label for the new booking status. It will be shown in the Bookings "
+"Overview."
+msgstr ""
+
+#: classes/class-init.php:148
+msgid "Show Categories"
+msgstr ""
+
+#: classes/class-init.php:152
+msgid ""
+"Do you want to add a column to the Admin Events List displaying the Event "
+"Category?"
+msgstr ""
+
+#: classes/class-init.php:158
+msgid "Event Cancellation Emails"
+msgstr ""
+
+#: classes/class-init.php:158
+msgid "When you cancel an event, a notification email will be sent."
+msgstr ""
+
+#: classes/class-init.php:158
+msgid "It uses the same process and settings as your other EM Booking Emails."
+msgstr ""
+
+#: classes/class-init.php:158
+#, php-format
+msgid "This accepts %s, %s and %s placeholders."
+msgstr ""
+
+#: classes/class-init.php:158
+msgid "Booking Related Placeholders"
+msgstr ""
+
+#: classes/class-init.php:158
+msgid "Event Related Placeholders"
+msgstr ""
+
+#: classes/class-init.php:158
+msgid "Location Related Placeholders"
+msgstr ""
+
+#: classes/class-init.php:162
+msgid "Subject"
+msgstr ""
+
+#: classes/class-init.php:169
+msgid "Content"
+msgstr ""
+
+#: classes/class-init.php:176
+msgid "Include Status"
+msgstr ""
+
+#: classes/class-init.php:181
+msgid ""
+"Select each booking status that you want to include in the booking status "
+"change and notification emails."
+msgstr ""
+
+#: classes/class-init.php:185
+msgid "Auto Send"
+msgstr ""
+
+#: classes/class-init.php:189
+msgid "Do you want the Event Cancellation Email to be sent automatically?"
+msgstr ""
+
+#: classes/class-init.php:189
+msgid "You can always (re)send it manually in the Single Booking Page."
+msgstr ""
+
+#: classes/class-init.php:201 classes/class-init.php:224
+msgid "Please note that these labels are already taken"
+msgstr ""
+
+#: classes/class-init.php:209
+msgid "Pending"
+msgstr ""
+
+#: classes/class-init.php:210
+msgid "Approved"
+msgstr ""
+
+#: classes/class-init.php:211
+msgid "Rejected"
+msgstr ""
+
+#: classes/class-init.php:213
+msgid "Awaiting Online Payment"
+msgstr ""
+
+#: classes/class-init.php:214
+msgid "Awaiting Payment"
+msgstr ""
+
+#: stonehenge/class-core.php:83 stonehenge/class-mailer.php:91
+msgid "Settings"
+msgstr ""
+
+#: stonehenge/class-core.php:176
+msgid "Add"
+msgstr ""
+
+#: stonehenge/class-core.php:177
+msgid "Remove"
+msgstr ""
+
+#: stonehenge/class-core.php:178
+msgid "Edit"
+msgstr ""
+
+#: stonehenge/class-core.php:179 stonehenge/class-core.php:597
+#: stonehenge/class-functions.php:523
+msgid "Clear"
+msgstr ""
+
+#: stonehenge/class-core.php:180 stonehenge/class-core.php:596
+msgid "Select file"
+msgstr ""
+
+#: stonehenge/class-core.php:181
+msgid ""
+"Not all required fields were filled out. Please check all sections and try "
+"again."
+msgstr ""
+
+#: stonehenge/class-core.php:187 stonehenge/class-functions.php:523
+msgid "Next"
+msgstr ""
+
+#: stonehenge/class-core.php:188 stonehenge/class-functions.php:523
+msgid "Previous"
+msgstr ""
+
+#: stonehenge/class-core.php:267 stonehenge/class-functions.php:183
+#: stonehenge/class-functions.php:199
+msgid "Save Changes"
+msgstr ""
+
+#: stonehenge/class-core.php:469 stonehenge/class-core.php:636
+msgid "No"
+msgstr ""
+
+#: stonehenge/class-core.php:469 stonehenge/class-core.php:636
+msgid "Yes"
+msgstr ""
+
+#: stonehenge/class-core.php:519
+msgid "Select"
+msgstr ""
+
+#: stonehenge/class-core.php:612
+msgid "Select Color"
+msgstr ""
+
+#: stonehenge/class-forms.php:19 stonehenge/class-mailer.php:14
+msgid "Invalid form submission."
+msgstr ""
+
+#: stonehenge/class-forum.php:80
+msgid "First Name"
+msgstr ""
+
+#: stonehenge/class-forum.php:84
+msgid "Last Name"
+msgstr ""
+
+#: stonehenge/class-forum.php:88
+msgid "Email"
+msgstr ""
+
+#: stonehenge/class-functions.php:22
+#, php-format
+msgid "%s requires <strong>%s</strong> to be installed & activated."
+msgstr ""
+
+#: stonehenge/class-functions.php:159
+#, php-format
+msgid ""
+"To edit this template, first copy the original file, before making "
+"adjustments. <br>%s"
+msgstr ""
+
+#: stonehenge/class-functions.php:183
+#, php-format
+msgctxt "Please check your settings and click on \"Save Changes\"."
+msgid "Please check your <a href=%1$s>settings</a> and click on \"%2$s\"."
+msgstr ""
+
+#: stonehenge/class-functions.php:198
+msgid "New options have been added."
+msgstr ""
+
+#: stonehenge/class-functions.php:199
+#, php-format
+msgid "Please check your <a href=%1$s>settings</a> and click on \"%2$s\"."
+msgstr ""
+
+#: stonehenge/class-functions.php:210
+msgid "Available filter %s, which parses: <code>%l</code>."
+msgstr ""
+
+#: stonehenge/class-functions.php:217
+#, php-format
+msgid ""
+"You can hook into this by using the <code>%1$s</code> action hook and these "
+"variables: <code>%2$s</code>"
+msgstr ""
+
+#: stonehenge/class-functions.php:224
+msgid "Important"
+msgstr ""
+
+#: stonehenge/class-functions.php:224
+msgid ""
+"Enabling this section will schedule a WP Cron Job to run daily at the given "
+"time."
+msgstr ""
+
+#: stonehenge/class-functions.php:225
+msgid ""
+"If you set this option to \"No\" or deactivate this plugin, the WP Cron Job "
+"will be cancelled immediately."
+msgstr ""
+
+#: stonehenge/class-functions.php:226
+msgid ""
+"Reactivating this plugin will reschedule the WP Cron Job (or not) according "
+"to the last saved settings."
+msgstr ""
+
+#: stonehenge/class-functions.php:227
+msgid ""
+"If you have a low-traffic website, it is best to not rely on the default WP "
+"Cron Jobs."
+msgstr ""
+
+#: stonehenge/class-functions.php:227
+msgid "Tom McFarlin wrote a great read on how to solve that."
+msgstr ""
+
+#: stonehenge/class-functions.php:519
+msgid "January"
+msgstr ""
+
+#: stonehenge/class-functions.php:519
+msgid "February"
+msgstr ""
+
+#: stonehenge/class-functions.php:519
+msgid "March"
+msgstr ""
+
+#: stonehenge/class-functions.php:519
+msgid "April"
+msgstr ""
+
+#: stonehenge/class-functions.php:519 stonehenge/class-functions.php:520
+msgid "May"
+msgstr ""
+
+#: stonehenge/class-functions.php:519
+msgid "June"
+msgstr ""
+
+#: stonehenge/class-functions.php:519
+msgid "July"
+msgstr ""
+
+#: stonehenge/class-functions.php:519
+msgid "August"
+msgstr ""
+
+#: stonehenge/class-functions.php:519
+msgid "September"
+msgstr ""
+
+#: stonehenge/class-functions.php:519
+msgid "October"
+msgstr ""
+
+#: stonehenge/class-functions.php:519
+msgid "November"
+msgstr ""
+
+#: stonehenge/class-functions.php:519
+msgid "December"
+msgstr ""
+
+#: stonehenge/class-functions.php:520
+msgid "Jan"
+msgstr ""
+
+#: stonehenge/class-functions.php:520
+msgid "Feb"
+msgstr ""
+
+#: stonehenge/class-functions.php:520
+msgid "Mar"
+msgstr ""
+
+#: stonehenge/class-functions.php:520
+msgid "Apr"
+msgstr ""
+
+#: stonehenge/class-functions.php:520
+msgid "Jun"
+msgstr ""
+
+#: stonehenge/class-functions.php:520
+msgid "Jul"
+msgstr ""
+
+#: stonehenge/class-functions.php:520
+msgid "Aug"
+msgstr ""
+
+#: stonehenge/class-functions.php:520
+msgid "Sep"
+msgstr ""
+
+#: stonehenge/class-functions.php:520
+msgid "Oct"
+msgstr ""
+
+#: stonehenge/class-functions.php:520
+msgid "Nov"
+msgstr ""
+
+#: stonehenge/class-functions.php:520
+msgid "Dec"
+msgstr ""
+
+#: stonehenge/class-functions.php:521
+msgid "Sunday"
+msgstr ""
+
+#: stonehenge/class-functions.php:521
+msgid "Monday"
+msgstr ""
+
+#: stonehenge/class-functions.php:521
+msgid "Tuesday"
+msgstr ""
+
+#: stonehenge/class-functions.php:521
+msgid "Wednesday"
+msgstr ""
+
+#: stonehenge/class-functions.php:521
+msgid "Thursday"
+msgstr ""
+
+#: stonehenge/class-functions.php:521
+msgid "Friday"
+msgstr ""
+
+#: stonehenge/class-functions.php:521
+msgid "Saturday"
+msgstr ""
+
+#: stonehenge/class-functions.php:522
+msgid "Sun"
+msgstr ""
+
+#: stonehenge/class-functions.php:522
+msgid "Mon"
+msgstr ""
+
+#: stonehenge/class-functions.php:522
+msgid "Tue"
+msgstr ""
+
+#: stonehenge/class-functions.php:522
+msgid "Wed"
+msgstr ""
+
+#: stonehenge/class-functions.php:522
+msgid "Thu"
+msgstr ""
+
+#: stonehenge/class-functions.php:522
+msgid "Fri"
+msgstr ""
+
+#: stonehenge/class-functions.php:522
+msgid "Sat"
+msgstr ""
+
+#: stonehenge/class-functions.php:523
+msgid "Today"
+msgstr ""
+
+#: stonehenge/class-functions.php:523
+msgid "Close"
+msgstr ""
+
+#: stonehenge/class-functions.php:524
+msgid "Day"
+msgstr ""
+
+#: stonehenge/class-functions.php:524
+msgid "Week"
+msgstr ""
+
+#: stonehenge/class-functions.php:524
+msgid "Month"
+msgstr ""
+
+#: stonehenge/class-functions.php:524
+msgid "Year"
+msgstr ""
+
+#: stonehenge/class-license.php:138
+msgid "Sorry, you are not allowed to manage plugins for this site."
+msgstr ""
+
+#: stonehenge/class-license.php:163
+msgid "License"
+msgstr ""
+
+#: stonehenge/class-mailer.php:49
+msgid "Send Email"
+msgstr ""
+
+#: stonehenge/class-mailer.php:91
+msgid "General"
+msgstr ""
+
+#: stonehenge/class-mailer.php:95
+#, php-format
+msgid "This plugin will use the credentials in %s to send emails."
+msgstr ""
+
+#: stonehenge/class-mailer.php:98
+msgid ""
+"If defined, the header, footer and CSS markup will be automatically applied."
+msgstr ""
+
+#: stonehenge/class-mailer.php:315
+msgid "Email sent."
+msgstr ""
+
+#: stonehenge/class-mailer.php:317
+msgid "This action has been disabled by the administrator."
+msgstr ""
+
+#: stonehenge/class-plugins.php:64
+msgid "Already Installed"
+msgstr ""
+
+#: stonehenge/class-plugins.php:68
+msgid "Install Now"
+msgstr ""
+
+#: stonehenge/class-plugins.php:140
+msgid "More info"
+msgstr ""
+
+#: stonehenge/server/Puc/v4p6/Plugin/Ui.php:54
+msgid "View details"
+msgstr ""
+
+#: stonehenge/server/Puc/v4p6/Plugin/Ui.php:77
+#, php-format
+msgid "More information about %s"
+msgstr ""
+
+#: stonehenge/server/Puc/v4p6/Plugin/Ui.php:128
+msgid "Check for updates"
+msgstr ""
+
+#: stonehenge/server/Puc/v4p6/Plugin/Ui.php:213
+#, php-format
+msgctxt "the plugin title"
+msgid "The %s plugin is up to date."
+msgstr ""
+
+#: stonehenge/server/Puc/v4p6/Plugin/Ui.php:215
+#, php-format
+msgctxt "the plugin title"
+msgid "A new version of the %s plugin is available."
+msgstr ""
+
+#: stonehenge/server/Puc/v4p6/Plugin/Ui.php:217
+#, php-format
+msgctxt "the plugin title"
+msgid "Could not determine if updates are available for %s."
+msgstr ""
+
+#: stonehenge/server/Puc/v4p6/Plugin/Ui.php:223
+#, php-format
+msgid "Unknown update checker status \"%s\""
+msgstr ""
+
+#: stonehenge/server/Puc/v4p6/Vcs/PluginUpdateChecker.php:98
+msgid "There is no changelog available."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Events Manager - Event Cancellation"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid ""
+"https://www.stonehengecreations.nl/creations/stonehenge-em-cancellation/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Adds a new \"Event Cancelled\" post status and booking status to your EM "
+"event and auto-sends \"Event Cancelled\" booking emails."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Stonehenge Creations"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.stonehengecreations.nl/"
+msgstr ""
